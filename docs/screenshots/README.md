@@ -2,7 +2,7 @@
 
 ### FastFlag editor
 
-./docs/screenshots/editor.png](./docs/screenshots/editor.png)
+./docs/screenshots/editor.png
 
 ### FastFlag browser
 
