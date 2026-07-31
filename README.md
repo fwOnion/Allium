@@ -178,6 +178,7 @@ The following list is derived from functionality present in the Allium source. A
 - Save flags locally.
 - Write FastFlags to Roblox client settings.
 - Save, apply, and launch Roblox from the editor workflow.
+- Supports writing both prefixed and unprefixed FFlags.
 - Display editor notifications, progress, status, and console output.
 - Use context menus and keyboard shortcuts for common editor actions.
 
