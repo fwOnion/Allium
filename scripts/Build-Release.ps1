@@ -1,0 +1,4 @@
+[CmdletBinding()] param([string]$Root=(Split-Path -Parent $PSScriptRoot),[string]$Version='1.0.0',[string]$OutputDirectory=(Join-Path (Split-Path -Parent $PSScriptRoot) out))
+& (Join-Path $PSScriptRoot 'Test-Repository.ps1') -Root $Root -ExpectedVersion $Version -RequireReleaseArtifacts;if($LASTEXITCODE){throw 'Validation failed'}
+$n="Allium-v$Version";$stage=Join-Path $OutputDirectory $n;$zip="$stage.zip";Remove-Item $stage,$zip -Recurse -Force -ErrorAction SilentlyContinue;New-Item -ItemType Directory -Path(Join-Path $stage assets)-Force|Out-Null
+@('Allium.ps1','Allium-Setup.ps1','README.md','LICENSE','THIRD-PARTY-NOTICES.md')|%{Copy-Item (Join-Path $Root $_) (Join-Path $stage $_)};Copy-Item (Join-Path $Root 'assets/allium-icon.png') (Join-Path $stage 'assets/allium-icon.png');Compress-Archive -LiteralPath $stage -DestinationPath $zip;& (Join-Path $PSScriptRoot 'New-Checksums.ps1') -Path $zip -Output (Join-Path $OutputDirectory 'SHA256SUMS.txt')
