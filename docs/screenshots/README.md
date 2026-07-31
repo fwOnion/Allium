@@ -2,11 +2,11 @@
 
 ### FastFlag editor
 
-![Allium FastFlag editor](docs/screenshots/editor.png)
+./docs/screenshots/editor.png
 
 ### FastFlag browser
 
-![Allium FastFlag browser](docs/screenshots/browser.png)
+./docs/screenshots/browser.png
 
 ### Settings
 
@@ -14,21 +14,21 @@
   <tr>
     <td width="50%" valign="top">
       <strong>General</strong><br><br>
-      <img src="docs/screenshots/settings-general.png" alt="Allium general settings" width="100%">
+      ./docs/screenshots/settings-general.png
     </td>
     <td width="50%" valign="top">
       <strong>Watchdog</strong><br><br>
-      <img src="docs/screenshots/settings-watchdog.png" alt="Allium watchdog settings" width="100%">
+      ./docs/screenshots/settings-watchdog.png
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <strong>Memory application</strong><br><br>
-      <img src="docs/screenshots/settings-memory.png" alt="Allium memory application settings" width="100%">
+      ./docs/screenshots/settings-memory.png
     </td>
     <td width="50%" valign="top">
       <strong>HTTPS interception</strong><br><br>
-      <img src="docs/screenshots/settings-https.png" alt="Allium HTTPS interception settings" width="100%">
+      ./docs/screenshots/settings-https.png
     </td>
   </tr>
 </table>
@@ -39,11 +39,11 @@
   <tr>
     <td width="50%" valign="top">
       <strong>FastFlag dumper</strong><br><br>
-      <img src="docs/screenshots/dumper.png" alt="Allium FastFlag dumper" width="100%">
+      ./docs/screenshots/dumper.png
     </td>
     <td width="50%" valign="top">
       <strong>About</strong><br><br>
-      <img src="docs/screenshots/about.png" alt="Allium About page" width="100%">
+      ./docs/screenshots/about.png
     </td>
   </tr>
 </table>
