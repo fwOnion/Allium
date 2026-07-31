@@ -17,6 +17,12 @@ Allium is a Windows PowerShell application for inspecting, editing, applying, an
 2. Verify the checksum and extract to a user-writable folder.
 3. Run `Allium-Setup.ps1` with PowerShell 7.
 
+### WinUIShell
+
+Allium requires WinUIShell 0.12.0 or later. Setup installs a compatible version when WinUIShell is missing. Allium does not automatically update WinUIShell after installation.
+
+Versions newer than the tested 0.12.x series may display a compatibility warning.
+
 Setup may install system-wide dependencies and fonts, set CurrentUser execution policy to `Unrestricted`, and remove Zone.Identifier streams from supported files below the Allium folder. See [Installation](docs/installation.md) and [Security](docs/security-and-privacy.md).
 
 ```powershell
