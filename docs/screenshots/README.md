@@ -2,33 +2,33 @@
 
 ### FastFlag editor
 
-docs/screenshots/editor.png
+![Allium FastFlag editor](docs/screenshots/editor.png)
 
 ### FastFlag browser
 
-docs/screenshots/browser.png
+![Allium FastFlag browser](docs/screenshots/browser.png)
 
 ### Settings
 
 <table>
   <tr>
-    <td width="50%">
-      <strong>General</strong><br>
-      docs/screenshots/settings-general.png
+    <td width="50%" valign="top">
+      <strong>General</strong><br><br>
+      <img src="docs/screenshots/settings-general.png" alt="Allium general settings" width="100%">
     </td>
-    <td width="50%">
-      <strong>Watchdog</strong><br>
-      docs/screenshots/settings-watchdog.png
+    <td width="50%" valign="top">
+      <strong>Watchdog</strong><br><br>
+      <img src="docs/screenshots/settings-watchdog.png" alt="Allium watchdog settings" width="100%">
     </td>
   </tr>
   <tr>
-    <td width="50%">
-      <strong>Memory application</strong><br>
-      docs/screenshots/settings-memory.png
+    <td width="50%" valign="top">
+      <strong>Memory application</strong><br><br>
+      <img src="docs/screenshots/settings-memory.png" alt="Allium memory application settings" width="100%">
     </td>
-    <td width="50%">
-      <strong>HTTPS interception</strong><br>
-      docs/screenshots/settings-https.png
+    <td width="50%" valign="top">
+      <strong>HTTPS interception</strong><br><br>
+      <img src="docs/screenshots/settings-https.png" alt="Allium HTTPS interception settings" width="100%">
     </td>
   </tr>
 </table>
@@ -37,13 +37,13 @@ docs/screenshots/browser.png
 
 <table>
   <tr>
-    <td width="50%">
-      <strong>FastFlag dumper</strong><br>
-      docs/screenshots/dumper.png
+    <td width="50%" valign="top">
+      <strong>FastFlag dumper</strong><br><br>
+      <img src="docs/screenshots/dumper.png" alt="Allium FastFlag dumper" width="100%">
     </td>
-    <td width="50%">
-      <strong>About</strong><br>
-      docs/screenshots/about.png
+    <td width="50%" valign="top">
+      <strong>About</strong><br><br>
+      <img src="docs/screenshots/about.png" alt="Allium About page" width="100%">
     </td>
   </tr>
 </table>
