@@ -1,0 +1,32 @@
+name: Bug report
+description: Report a reproducible Allium problem
+title: "[Bug]: "
+labels: [bug, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include secrets, certificates, keys, cookies, dumps, or unsanitized logs.
+  - type: input
+    id: version
+    attributes: {label: Allium version, placeholder: 1.0.0}
+    validations: {required: true}
+  - type: input
+    id: windows
+    attributes: {label: Windows version and build}
+    validations: {required: true}
+  - type: input
+    id: powershell
+    attributes: {label: PowerShell version}
+    validations: {required: true}
+  - type: textarea
+    id: steps
+    attributes: {label: Reproduction steps}
+    validations: {required: true}
+  - type: textarea
+    id: expected
+    attributes: {label: Expected behavior}
+    validations: {required: true}
+  - type: textarea
+    id: observed
+    attributes: {label: Observed behavior}
+    validations: {required: true}
