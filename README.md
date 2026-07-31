@@ -20,7 +20,6 @@
 
 Allium combines a FastFlag editor, searchable flag browser, profiles, launch controls, monitoring, memory tools, HTTPS interception controls, and a strategy-based FastFlag dumper in one WinUI interface.
 
-The public `Allium.ps1` file is the verified minified release artifact. The readable development source is maintained privately.
 
 ---
 
