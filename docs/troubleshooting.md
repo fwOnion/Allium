@@ -169,12 +169,13 @@ The first Allium interface should be the launcher menu:
 - Some FFlags will require a new Roblox session or game relaunch. Static FastFlags are normally read during startup or initialization. Changing a static flag while Roblox is already running may not change the current session. Close Roblox completely and launch it again after applying the flag. Some behavior can also depend on joining a new game or creating a fresh client state.
 - Dynamic FastFlags are designed to support runtime changes. Allium’s supported memory-application and HTTPS Interception workflow can apply supported dynamic values to the running Roblox process when address acquisition and validation succeed. “Dynamic” does not guarantee that every visible effect changes immediately. 
 - Confirm names and values are valid. For example, ensure that your list meets none of the following:
-  > True or False supplied to an integer flag
-  > Text supplied to a numeric flag
-  > A number outside the useful range
-  > A misspelled flag name
-  > Conflicting flags
-  > Duplicate entries with different values
+  > - True or False supplied to an integer flag
+  > - Text supplied to a numeric flag
+  > - A number outside the useful range
+  > - A misspelled flag name
+  > - Conflicting flags
+  > - Duplicate entries with different values
+
 - Use the editor’s clean-list action.
 - Confirm Roblox client settings can be located.
 - If using Memory Writing, ensure that you have ran a dump first (open the Allium Settings, head over to the FFlag Dumper tab, locate the "Run dump" card, and press "Dump now"). Then, retry applying your FFlags.
@@ -185,8 +186,9 @@ The first Allium interface should be the launcher menu:
 
 ## How can I tell whether a FastFlag is dynamic or static?
 - Roblox FastFlag names commonly use a prefix that describes both the value type and whether the value is dynamic. A leading "D" indicates the dynamic form. Therefore:
-  > FFlagDebugSkyGray is static by naming convention.
-  > DFIntDebugDynamicRenderKiloPixels is dynamic by naming convention.
+  > - FFlagDebugSkyGray is static by naming convention.
+  > - DFIntDebugDynamicRenderKiloPixels is dynamic by naming convention.
+
 - Dynamic flags are capable of updating after initialization. 
 
 ## What should I do if all my FastFlags appear red when I apply them?
