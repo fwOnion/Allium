@@ -130,7 +130,21 @@ The first Allium interface should be the launcher menu:
 
 ## Why does Allium take so long to start up?
 
-- Allium 
+- Allium is a large PowerShell application that builds a WinUI interface at runtime rather than launching as a precompiled executable.
+- WinUIShell, the module used for the GUI, is ultimately speed bottlenecked through roundtrip IPC calls.
+- During the initial splash screen, Allium is warming up/preloading the GUI.
+- If every launch remains unusually slow, report the Allium version, Windows build, PowerShell version, approximate FastFlag count, and the stage at which the delay occurs.
+
+## Why does Allium feel sluggish or delayed?
+- Allium combines PowerShell with a WinUI interface. Some actions involve more work than a typical lightweight settings application.
+- WinUIShell, the module used for the GUI, is ultimately speed bottlenecked through roundtrip IPC calls.
+- Ensure that you keep your FFlag list as "slim" as possible. Having thousands of FFlags will slow down the GUI.
+- A small delay during a large refresh can be normal. Long freezes, repeated hangs, or an interface that stops responding should be reported as a bug.
+
+## Why does Settings take so long to open after I closed it once?
+- Allium prepares parts of the editor and Settings interface in advance to reduce the first-open delay. After the Settings window is closed, Allium will need to recreate the window, navigation pages, controls, event handlers, and current status information the next time Settings is opened.
+- Avoid repeatedly opening and closing Settings during a source fetch, dump, or memory scan.
+- Restart Allium if Settings never finishes opening.
 
 ## Why is Roblox not detected?
 
@@ -254,9 +268,12 @@ No. Do not share PFX, P12, PEM private keys, passwords, or complete certificate 
 - Ensure that HTTS Interception is enabled and the certificate is installed.
 - If this is your first time using HTTPS Interception, then you may have to wait a few minutes for the proxy to properly start up in order for your FFlags to actually apply to Roblox.
 
-## Why does HTTPS Interception result in me having connection issues in Roblox?
+## Why does HTTPS interception cause connection issues in Roblox?
+- Allium’s optional HTTPS interception feature can modify local network routing and certificate state. Roblox connectivity can fail when traffic is redirected but the local interception service is unavailable or unable to complete the connection.
 - First, ensure that the FFlags that you are using are not causing this issue. Remove all of your current FFlags and apply a known, untroublesome FFlag, and test again.
+- Ensure that another proxy, VPN, DNS filter, or hosts-file manager is not conflicting with Allium.
 - Attempt to reset the HTTPS state. Re-enable HTTPS Interception and reinstall the certificate afterwards.
+- As a last resort, reset the HTTPS state and keep HTTPS Interception disabled. If normal connectivity returns after interception is disabled, keep interception off while collecting sanitized diagnostics.
 
 ---
 
