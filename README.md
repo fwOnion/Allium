@@ -6,12 +6,27 @@
 
 ### A fluent Windows PowerShell 7 app for inspecting, editing, applying, and managing Roblox FastFlags.
 
-https://img.shields.io/github/v/release/fwOnion/Allium?style=for-the-badge&label=Release](https://github.com/fwOnion/Allium/releases/latest)
-https://img.shields.io/github/downloads/fwOnion/Allium/v1.0.0/Allium-v1.0.0.zip?style=for-the-badge&logo=github&logoColor=white&label=ZIP%20Downloads&color=2ea44f](https://github.com/fwOnion/Allium/releases/download/v1.0.0/Allium-v1.0.0.zip)
-https://img.shields.io/badge/Discord-Join%20the%20community-5865F2?style=for-the-badge&logo=discord&logoColor=white](https://discord.gg/gFK9fhMUQm)
-https://img.shields.io/badge/Platform-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white](#requirements)
-https://img.shields.io/badge/PowerShell-7.4%2B-5391FE?style=for-the-badge&logo=powershell&logoColor=white](#requirements)
-https://img.shields.io/github/license/fwOnion/Allium?style=for-the-badge](LICENSE)
+<p align="center">
+  https://github.com/fwOnion/Allium/releases/latest
+    https://img.shields.io/github/v/release/fwOnion/Allium?style=for-the-badge&amp;label=Release
+  </a>
+  https://github.com/fwOnion/Allium/releases/download/v1.0.0/Allium-v1.0.0.zip
+    https://img.shields.io/github/downloads/fwOnion/Allium/v1.0.0/Allium-v1.0.0.zip?style=for-the-badge&amp;logo=github&amp;logoColor=white&amp;label=ZIP%20Downloads&amp;color=2ea44f
+  </a>
+  https://discord.gg/gFK9fhMUQm
+    https://img.shields.io/badge/Discord-Join%20the%20community-5865F2?style=for-the-badge&amp;logo=discord&amp;logoColor=white
+  </a>
+  <br>
+  #requirements
+    https://img.shields.io/badge/Platform-Windows-0078D4?style=for-the-badge&amp;logo=windows&amp;logoColor=white
+  </a>
+  #requirements
+    https://img.shields.io/badge/PowerShell-7.4%2B-5391FE?style=for-the-badge&amp;logo=powershell&amp;logoColor=white
+  </a>
+  LICENSE
+    https://img.shields.io/github/license/fwOnion/Allium?style=for-the-badge
+  </a>
+</p>
 
 [Download the latest release](https://github.com/fwOnion/Allium/releases/latest) · [Installation guide](docs/installation.md) · [Security and privacy](docs/security-and-privacy.md) · [Troubleshooting](docs/troubleshooting.md) · [Discord support](https://discord.gg/gFK9fhMUQm)
 
