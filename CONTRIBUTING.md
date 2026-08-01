@@ -13,7 +13,7 @@
 Thank you for helping improve Allium. Contributions should be narrow, testable, and easy to review.
 
 > [!IMPORTANT]
-> The readable development source is maintained privately. The public root `Allium.ps1` is the verified minified release artifact and is not intended for large unsolicited refactors.
+> The public root `Allium.ps1` is the verified minified release artifact and is not intended for large unsolicited refactors.
 
 ## Ways to contribute
 
