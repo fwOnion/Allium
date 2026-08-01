@@ -128,6 +128,10 @@ The first Allium interface should be the launcher menu:
   </a>
 </p>
 
+## Why does Allium take so long to start up?
+
+- Allium 
+
 ## Why is Roblox not detected?
 
 - Confirm Roblox Player is installed for the current Windows user.
@@ -151,6 +155,8 @@ The first Allium interface should be the launcher menu:
 - Confirm names and values are valid.
 - Use the editor’s clean-list action.
 - Confirm Roblox client settings can be located.
+- If using Memory Writing, ensure that you have ran a dump first (open the Allium Settings, head over to the FFlag Dumper tab, locate the "Run dump" card, and press "Dump now"). Then, retry applying your FFlags.
+- If using HTTPS Interception. ensure that HTTS Interception is enabled and the certificate is installed. If this is your first time using HTTPS Interception, then you may have to wait a few minutes for the proxy to properly start up in order for your FFlags to actually apply to Roblox.
 - Close Roblox before testing file-based changes.
 - Check whether watchdog or another tool rewrites the same file.
 - Review Allium’s console log.
@@ -170,7 +176,7 @@ The first Allium interface should be the launcher menu:
 - Test with a new minimal profile.
 - Preserve the current file before restoring a backup.
 
-## Why does the FastFlag browser fail to load sources?
+## Why does the FFlag browser fail to load sources?
 
 - Confirm internet access.
 - Try again later because external sources can be independently unavailable.
@@ -201,7 +207,7 @@ Watchdog or periodic reapplication may be writing the configured FastFlags back 
 # Memory mode FAQ
 
 > [!WARNING]
-> Memory mode is advanced and can stop working after Roblox updates.
+> Memory mode is advanced and may stop working after Roblox updates.
 
 ## Why does address acquisition fail?
 
@@ -215,6 +221,7 @@ Watchdog or periodic reapplication may be writing the configured FastFlags back 
 
 ## Why does memory application not change a value?
 
+- Ensure that you have ran a dump first (open the Allium Settings, head over to the FFlag Dumper tab, locate the "Run dump" card, and press "Dump now"). Then, retry applying your FFlags.
 - Confirm address validation passed.
 - Confirm the FastFlag type and selected mode are compatible.
 - Confirm Roblox has not restarted since acquisition.
@@ -242,6 +249,14 @@ Watchdog or periodic reapplication may be writing the configured FastFlags back 
 ## Is it safe to share the certificate files?
 
 No. Do not share PFX, P12, PEM private keys, passwords, or complete certificate folders. Use GitHub private vulnerability reporting for security issues.
+
+## Why is HTTPS Interception not modifying FFlags to Roblox?
+- Ensure that HTTS Interception is enabled and the certificate is installed.
+- If this is your first time using HTTPS Interception, then you may have to wait a few minutes for the proxy to properly start up in order for your FFlags to actually apply to Roblox.
+
+## Why does HTTPS Interception result in me having connection issues in Roblox?
+- First, ensure that the FFlags that you are using are not causing this issue. Remove all of your current FFlags and apply a known, untroublesome FFlag, and test again.
+- Attempt to reset the HTTPS state. Re-enable HTTPS Interception and reinstall the certificate afterwards.
 
 ---
 
