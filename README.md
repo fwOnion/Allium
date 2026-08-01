@@ -4,7 +4,7 @@
 
 # Allium
 
-### A fluent Windows app for discovering, editing, applying, and managing Roblox FastFlags
+### A fluent Windows PowerShell 7 app for inspecting, editing, applying, and managing Roblox FastFlags.
 
 https://img.shields.io/github/v/release/fwOnion/Allium?style=for-the-badge&label=Release](https://github.com/fwOnion/Allium/releases/latest)
 https://img.shields.io/github/downloads/fwOnion/Allium/v1.0.0/Allium-v1.0.0.zip?style=for-the-badge&logo=github&logoColor=white&label=ZIP%20Downloads&color=2ea44f](https://github.com/fwOnion/Allium/releases/download/v1.0.0/Allium-v1.0.0.zip)
