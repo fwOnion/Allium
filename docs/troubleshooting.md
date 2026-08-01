@@ -164,9 +164,17 @@ The first Allium interface should be the launcher menu:
 
 # FastFlag editor FAQ
 
-## Why are FastFlags not being written?
+## Why are FastFlags not being written/do not appear to apply?
 
-- Confirm names and values are valid.
+- Some FFlags will require a new Roblox session or game relaunch. Static FastFlags are normally read during startup or initialization. Changing a static flag while Roblox is already running may not change the current session. Close Roblox completely and launch it again after applying the flag. Some behavior can also depend on joining a new game or creating a fresh client state.
+- Dynamic FastFlags are designed to support runtime changes. Allium’s supported memory-application and HTTPS Interception workflow can apply supported dynamic values to the running Roblox process when address acquisition and validation succeed. “Dynamic” does not guarantee that every visible effect changes immediately. 
+- Confirm names and values are valid. For example, ensure that your list meets none of the following:
+  > True or False supplied to an integer flag
+  > Text supplied to a numeric flag
+  > A number outside the useful range
+  > A misspelled flag name
+  > Conflicting flags
+  > Duplicate entries with different values
 - Use the editor’s clean-list action.
 - Confirm Roblox client settings can be located.
 - If using Memory Writing, ensure that you have ran a dump first (open the Allium Settings, head over to the FFlag Dumper tab, locate the "Run dump" card, and press "Dump now"). Then, retry applying your FFlags.
@@ -174,6 +182,19 @@ The first Allium interface should be the launcher menu:
 - Close Roblox before testing file-based changes.
 - Check whether watchdog or another tool rewrites the same file.
 - Review Allium’s console log.
+
+## How can I tell whether a FastFlag is dynamic or static?
+- Roblox FastFlag names commonly use a prefix that describes both the value type and whether the value is dynamic. A leading "D" indicates the dynamic form. Therefore:
+  > FFlagDebugSkyGray is static by naming convention.
+  > DFIntDebugDynamicRenderKiloPixels is dynamic by naming convention.
+- Dynamic flags are capable of updating after initialization. 
+
+## What should I do if all my FastFlags appear red when I apply them?
+- Ensure that Roblox is running.
+- Offset sources failed or did not reach agreement.
+- If using Memory Writing, ensure that you have ran a dump first (open the Allium Settings, head over to the FFlag Dumper tab, locate the "Run dump" card, and press "Dump now"). Then, retry applying your FFlags.
+- If using HTTPS Interception. ensure that HTTS Interception is enabled and the certificate is installed. If this is your first time using HTTPS Interception, then you may have to wait a few minutes for the proxy to properly start up in order for your FFlags to actually apply to Roblox.
+- Allium lacks the required administrator access. Attempt to relaunch Allium with the proper privileges. 
 
 ## Why does JSON import fail?
 
@@ -197,6 +218,10 @@ The first Allium interface should be the launcher menu:
 - Review the source status in the browser.
 - Check firewall, proxy, DNS, or security filtering.
 - Clear only the relevant cache when stale results are suspected.
+
+## Where can I find FastFlag lists and explanations?
+- Start with Allium’s built-in FastFlag browser. The browser is designed to retrieve, merge, search, and cache results from multiple configured sources.
+- Join the [Discord](https://discord.gg/gFK9fhMUQm) for community FastFlag configurations/lists, explanations and testing notes, Allium support, and reports of outdated configurations.
 
 ---
 
