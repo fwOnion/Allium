@@ -1,5 +1,13 @@
 ## Screenshots
 
+### Launcher
+
+<p align="center">
+  <a href="https://github.com/fwOnion/Allium/blob/main/docs/screenshots/launcher.png">
+    <img src="https://raw.githubusercontent.com/fwOnion/Allium/main/docs/screenshots/launcher.png" alt="Allium launcher menu" width="100%">
+  </a>
+</p>
+
 ### FastFlag editor
 
 <p align="center">
