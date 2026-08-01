@@ -11,7 +11,7 @@
 [![PowerShell](https://img.shields.io/badge/PowerShell-7.4%2B-5391FE?style=for-the-badge&logo=powershell)](#requirements)
 [![License](https://img.shields.io/github/license/fwOnion/Allium?style=for-the-badge)](LICENSE)
 
-[Download the latest release](https://github.com/fwOnion/Allium/releases/latest) · [Installation guide](docs/installation.md) · [Security and privacy](docs/security-and-privacy.md) · [Troubleshooting](docs/troubleshooting.md)
+[Download the latest release](https://github.com/fwOnion/Allium/releases/latest) · [Installation guide](docs/installation.md) · [Security and privacy](docs/security-and-privacy.md) · [Troubleshooting](docs/troubleshooting.md) · [Discord support](https://discord.gg/gFK9fhMUQm)
 
 </div>
 
@@ -355,6 +355,14 @@ Allium works with local Roblox configuration and includes optional advanced feat
 - Do not post certificates, private keys, cookies, account data, raw memory dumps, full settings files, or unsanitized logs in public issues.
 - Report vulnerabilities privately by following [SECURITY.md](SECURITY.md).
 - Read [Security and privacy](docs/security-and-privacy.md) for feature-specific considerations.
+
+---
+
+## Community and support
+
+Join the [Discord Server](https://discord.gg/gFK9fhMUQm) for general support, ordinary bug reporting, and community FastFlag configurations/lists.
+
+Security vulnerabilities should be reported privately through [GitHub private vulnerability reporting](https://github.com/fwOnion/Allium/security/advisories/new). Do not post private keys, certificate bundles, tokens, raw memory dumps, or sensitive proof-of-concept material in public channels.
 
 ---
 
