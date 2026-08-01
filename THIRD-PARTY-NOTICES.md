@@ -84,7 +84,7 @@ Allium's MIT license applies to Allium itself. Third-party software, fonts, serv
 Allium source references the following third-party projects or endpoints for discovery, attribution, FastFlag data, offset data, or related context:
 
 | Project or source | Reference | Known role in Allium |
-|---|---|---|---|
+|---|---|---|
 | 4anti Roblox FastFlag Manager | [Repository](https://github.com/4anti/Roblox-Fastflag-Manager) | Referenced FastFlag project |
 | Fleasion | [Repository](https://github.com/fleasion/fleasion) | Referenced "FastFlag" project | 
 | Froststrap | [Repository](https://github.com/Froststrap/Froststrap) | Referenced Roblox bootstrapper | 
@@ -94,7 +94,7 @@ Allium source references the following third-party projects or endpoints for dis
 | souloveryall offsets.hpp | [Repository](https://github.com/souloveryall/offsets.hpp) | Offset data reference |
 | offsets.imtheo.lol | [FFlagsHex data](https://offsets.imtheo.lol/fflags.hpp) | Offset and FastFlag data reference |
 
-External endpoints can change, become unavailable, or return different data without an Allium release.
+Note: External endpoints can change, become unavailable, or return different data without an Allium release.
 
 ## Icon and artwork
 
@@ -102,16 +102,6 @@ External endpoints can change, become unavailable, or return different data with
 - Original artwork provenance and any upstream license should be documented when confirmed.
 - Until then, do not assume the icon is available for reuse outside Allium.
 
-## Verification work still open
-
-The following provenance work remains appropriate:
-
-- Confirm the license file or published terms for each referenced FastFlag and offset source.
-- Confirm whether each source permits redistribution, caching, transformation, and derivative databases.
-- Record a stable upstream revision or release when a dependency is pinned.
-- Preserve upstream license and copyright notices whenever third-party material is redistributed.
-
-If a source's license cannot be confirmed, treat the source as externally referenced rather than as material Allium is entitled to redistribute.
 
 <div align="center">
 
