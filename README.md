@@ -7,7 +7,6 @@
 
 <div align="center">
 
-<img src="assets/allium-icon.png" alt="Allium circular pink dot logo" width="170">
 
 # Allium
 
