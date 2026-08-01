@@ -28,7 +28,7 @@ Allium currently welcomes:
 - Small, reviewable application changes coordinated with the maintainer
 - Verified screenshot updates with private information removed
 
-For general help, bug discussion, and community FastFlag configurations or lists, join the [Allium Discord](https://discord.gg/gFK9fhMUQm).
+For general help, bug discussion, and community FastFlag configurations or lists, join the [Main Support Server](https://discord.gg/gFK9fhMUQm).
 
 ## Before opening an issue
 
