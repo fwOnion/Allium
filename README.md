@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://github.com/fwOnion/Allium">
-    https://raw.githubusercontent.com/fwOnion/Allium/main/assets/allium-banner.png
+  .
+    assets/allium-banner.png
   </a>
 </p>
 
