@@ -1,8 +1,9 @@
 <p align="center">
   <a href="https://github.com/fwOnion/Allium">
-    https://raw.githubusercontent.com/fwOnion/Allium/main/assets/allium-banner.png
+    <img src="assets/allium-banner.png" alt="Allium interface banner" width="100%">
   </a>
 </p>
+
 
 <div align="center">
 
