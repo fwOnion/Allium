@@ -83,18 +83,16 @@ Allium's MIT license applies to Allium itself. Third-party software, fonts, serv
 
 Allium source references the following third-party projects or endpoints for discovery, attribution, FastFlag data, offset data, or related context:
 
-| Project or source | Reference | Known role in Allium | License or redistribution status |
+| Project or source | Reference | Known role in Allium |
 |---|---|---|---|
-| 4anti Roblox FastFlag Manager | [Repository](https://github.com/4anti/Roblox-Fastflag-Manager) | Referenced FastFlag project | Not yet confirmed; listed for attribution and provenance only |
-| Fleasion | [Repository](https://github.com/fleasion/fleasion) | Referenced FastFlag project | Not yet confirmed; listed for attribution and provenance only |
-| Froststrap | [Repository](https://github.com/Froststrap/Froststrap) | Referenced Roblox bootstrapper or FastFlag project | Not yet confirmed; listed for attribution and provenance only |
-| MaximumADHD Roblox FFlag Tracker | [Repository](https://github.com/MaximumADHD/Roblox-FFlag-Tracker) | FastFlag tracking data reference | Not yet confirmed; listed for attribution and provenance only |
-| Roblox Client Tracker | [FVariables data](https://raw.githubusercontent.com/MaximumADHD/Roblox-Client-Tracker/refs/heads/roblox/FVariables.txt) | FastFlag-variable source | Not yet confirmed; listed for attribution and provenance only |
-| souloveryall AllFFlagsPrefixes | [Data source](https://raw.githubusercontent.com/souloveryall/AllFFlagsPrefixes/main/AllFFlagsPrefixes) | Prefix data reference | Not yet confirmed; listed for attribution and provenance only |
-| souloveryall DataBase.json | [Data source](https://raw.githubusercontent.com/souloveryall/DataBase.json/refs/heads/main/database.json) | FastFlag database reference | Not yet confirmed; listed for attribution and provenance only |
-| souloveryall flaglist | [Data source](https://raw.githubusercontent.com/souloveryall/flaglist/main/flaglist.json) | FastFlag list reference | Not yet confirmed; listed for attribution and provenance only |
-| souloveryall offsets.hpp | [Repository](https://github.com/souloveryall/offsets.hpp) | Offset data reference | Not yet confirmed; listed for attribution and provenance only |
-| offsets.imtheo.lol | [FFlagsHex data](https://offsets.imtheo.lol/FFlagsHex.json) | Offset and FastFlag data reference | Not yet confirmed; listed for attribution and provenance only |
+| 4anti Roblox FastFlag Manager | [Repository](https://github.com/4anti/Roblox-Fastflag-Manager) | Referenced FastFlag project |
+| Fleasion | [Repository](https://github.com/fleasion/fleasion) | Referenced "FastFlag" project | 
+| Froststrap | [Repository](https://github.com/Froststrap/Froststrap) | Referenced Roblox bootstrapper | 
+| MaximumADHD Roblox FFlag Tracker | [Repository](https://github.com/MaximumADHD/Roblox-FFlag-Tracker) | FastFlag tracking data reference |
+| Roblox Client Tracker | [FVariables data](https://raw.githubusercontent.com/MaximumADHD/Roblox-Client-Tracker/refs/heads/roblox/FVariables.txt) | FastFlag-variable source |
+| souloveryall DataBase.json | [Data source](https://raw.githubusercontent.com/souloveryall/DataBase.json/refs/heads/main/database.json) | FastFlag database reference |
+| souloveryall offsets.hpp | [Repository](https://github.com/souloveryall/offsets.hpp) | Offset data reference |
+| offsets.imtheo.lol | [FFlagsHex data](https://offsets.imtheo.lol/fflags.hpp) | Offset and FastFlag data reference |
 
 External endpoints can change, become unavailable, or return different data without an Allium release.
 
