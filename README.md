@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://github.com/fwOnion/Allium">
+    https://raw.githubusercontent.com/fwOnion/Allium/main/assets/allium-banner.png
+  </a>
+</p>
+
 <div align="center">
 
 <img src="assets/allium-icon.png" alt="Allium circular pink dot logo" width="170">
