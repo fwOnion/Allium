@@ -60,24 +60,6 @@ Allium combines a FastFlag editor, searchable flag browser, profiles, launch con
 
 ---
 
-## Screenshots
-
-<!--
-Add verified screenshots when available. Approved paths:
-
-![FastFlag editor](docs/screenshots/editor.png)
-![General settings](docs/screenshots/settings-general.png)
-![Watchdog settings](docs/screenshots/settings-watchdog.png)
-![Memory settings](docs/screenshots/settings-memory.png)
-![HTTPS interception settings](docs/screenshots/settings-https.png)
-![FastFlag dumper](docs/screenshots/dumper.png)
-![About page](docs/screenshots/about.png)
--->
-
-Verified screenshots are not published yet. See [the screenshot intake guide](docs/screenshots/README.md) for the approved filenames and privacy requirements.
-
----
-
 # Beginner installation
 
 No terminal commands are required for the normal first-time setup.
